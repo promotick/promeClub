@@ -1254,6 +1254,9 @@ blockquote.style2:after {
 
 .show-shopping-cart {
 	background: #fff none repeat scroll 0 0;
+	max-height: 430px;
+	height: auto;
+	overflow-y: scroll;
 	opacity: 0;
 	padding: 30px;
 	position: absolute;
@@ -8305,9 +8308,9 @@ table {
 }
 
 .kt-popup-newsletter {
-/*	padding: 20px 60px;*/
+	/*	padding: 20px 60px;*/
 	text-align: center;
-/*	padding-bottom: 100px;*/
+	/*	padding-bottom: 100px;*/
 }
 
 .kt-popup-newsletter .popup-title {
@@ -9464,4 +9467,11 @@ li.info-pts {
 		background-size: cover!important;
 		margin-top: 0!important;
 	}
+}
+
+.division {
+	height: 1px;
+	border-top: 1px dashed #ddd;
+	margin-bottom: 15px;
+	margin-top: 15px;
 }
